@@ -2,7 +2,7 @@
 Generate Pyrogram String Session Using this bot.
 
 ## Demo:
-<a href="https://telegram.dog/ssessionstringgennew_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://telegram.dog/sessionstringgennew_bot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 - API_HASH
