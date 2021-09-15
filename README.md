@@ -13,7 +13,7 @@ Generate Pyrogram String Session Using this bot.
   - Telegram Bot Token from [here](https://telegram.dog/BotFather).
 
 ## Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImDenuwan/SZ-Gen-Str-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImDenuwan/String-Session-Genarator-Bot)
 
 ## Support Group:
 <a href="https://telegram.dog/slbotzone"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
