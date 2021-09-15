@@ -1,0 +1,46 @@
+{
+  "name": "String session Generator",
+  "description": "Telegram bot to get the string session for userbots",
+  "logo":"https://telegra.ph/file/e3ced32919a93afa5a4a8.jpg",
+  "keywords": [
+    "telegram",
+    "pyrogram",
+    "string",
+    "session",
+    "generator"
+  ],
+  "success_url": "https://telegram.dog/string_session_Nsbot",
+  "website": "https://github.com/TR-TECH-GUIDE/string-session-generator-bot",
+  "repository": "https://github.com/TR-TECH-GUIDE/string-session-generator-bot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
